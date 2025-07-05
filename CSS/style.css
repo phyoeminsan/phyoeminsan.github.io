@@ -6,7 +6,7 @@
 /* tag or element selector */
 h1{
     text-align: center;
-    color: green;
+    color: red;
 }
 
 /* attribute selector */
@@ -49,7 +49,7 @@ h1 a:hover{
 }
 
 h1:hover{
-    color: red;
+    color: powderblue;
 }
 
 h2 a:link{
@@ -67,4 +67,25 @@ h2 a:visited{
 
 h2 a:active{
     color: yellow;
+}
+
+/* target */
+p:target{
+    display: block;
+    color: red;
+    border: 10px dotted black;
+    line-height: 20px;
+    letter-spacing: 10px;
+}
+
+/* layout */
+.inline{
+    border: 2px solid red;
+    display: inline-block;
+    width: 400px;
+}
+.block{
+    border: 2px solid green;
+    width: 400px;
+    display: inline-block;
 }
