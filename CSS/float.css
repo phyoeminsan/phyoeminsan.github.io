@@ -25,3 +25,82 @@ h1{
     width: 40%;
     float: left;
 }
+
+/* grid */
+.gridone div,.gridtwo div,.gridthree div,.gridfour div{
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.gridone,.gridtwo,.gridthree,.gridfour{
+    display: grid;
+    grid-template-columns: auto auto auto; /* assign column to row/ auto-select one column */
+}
+.gridtwo{
+    grid-column-gap: 40px;
+}
+.gridthree{
+    grid-row-gap: 40px;
+    /* grid-gap: 40px; */
+    grid-column-gap: 50px;
+}
+.columnadd{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.rowadd{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+/* Position */
+.parent_absolute{
+    width: 1200px;
+    height: 500px;
+    border: 1px solid red;
+    position: relative;
+
+}
+.absolute{
+    width: 400px;
+    height: 200px;
+    border: 2px solid green;
+    position: absolute;
+    top: 10px;
+    left: 150px;
+}
+.parent_relative{
+    width: 1200px;
+    height: 500px;
+    border: 1px solid yellow;
+}
+.relative{
+    width: 400px;
+    height: 200px;
+    border: 2px solid brown;
+    position: relative;
+    top: 10px;
+    left: 150px;
+}
+.fixed{
+    position: fixed;
+    top: 50px;
+    right: 100px;
+}
+
+/* Online Font */
+.online {
+  font-family: "Manufacturing Consent", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Offline Font */
+@font-face {
+    font-family: "Caveat";
+    src: url(Caveat/Caveat-VariableFont_wght.ttf);
+}
+.offline{
+    font-family: "Caveat";
+}
+
