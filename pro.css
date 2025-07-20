@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.nav{
+    box-shadow: 0px 10px 20px rgb(0, 0, 0, 0.3);
+}
+.nav_logo{
+    width: 150px;
+    height: 125px;
+    margin-left: 100px;
+    margin-top: 1px;
+}
+.nav_item{
+    float: right;
+}
+.nav_item li{
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 60px;
+}
+.nav_item li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav_item li a:hover{
+    color: powderblue;
+}
+.conatct_nav_item{
+    margin-right: 90px;
+}

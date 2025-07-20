@@ -20,7 +20,7 @@ input[type="text"],input[type="email"],input[type="number"],input[type="date"]{
 
 /* focus where input type='text,number,email' */
 input[type="text"]:focus,input[type="email"]:focus,input[type="number"]:focus,input[type="date"]:focus{
-    border: 5px solid  gray;
+    border: 5px solid  greenyellow;
     border-radius: 6px;
 }
 
@@ -72,6 +72,8 @@ div:empty,p:empty{
     background-color: skyblue;
     color: white;
     border: 1px solid skyblue;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 

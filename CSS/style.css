@@ -58,6 +58,8 @@ h2 a:link{
 
 h2 a:hover{
     color: greenyellow;
+    border: 1px solid red;
+    background-color: red;
 }
 
 /* After visited show color */
