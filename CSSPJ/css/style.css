@@ -141,3 +141,137 @@
     color: red;
     text-decoration: line-through;
 }
+/* end promotion */
+
+/* start new arrival */
+.new_arrival{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 15px 150px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.new_arrival_item{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 0px 20px 10px;
+    position: relative;
+}
+.new_arrival_text{
+    display: inline-block;
+}
+.whist_list{
+    float: right;
+}
+.new_arrival_img{
+    width: 100%;
+    height: 450px;
+}
+.new_arrival_icon{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    opacity: 0; /* opcity 0 is user no see and same diplay none */
+}
+.new_arrival_icon a{
+    border: 1px solid red;
+    background-color: rgb(250, 247, 247);
+    color: red;
+    padding: 10px;
+    border-radius: 5px;
+}
+.new_arrival_icon a:hover{
+    background-color: red;
+    color: white;
+}
+.new_arrival_item:hover .new_arrival_icon{
+    opacity: 1;
+}
+.new_arrival_img:hover{
+    opacity: .6;
+}
+/* end arrival */
+
+/* start subscriber */
+.subscriber{
+    background-color: red;
+    padding: 70px 0px;
+    margin-top: 50px;
+}
+.subscriber div{
+    width: 40%;
+    margin-left: 300px;
+    color: white;
+}
+.subscriber div{
+    float: left;
+}
+.subscriber div p{
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.subscriber_input{
+    width: 400px;
+    height: 40px;
+    outline: none;
+    border-radius: 5px 0px 0px 5px;
+}
+.subscriber_btn{
+    height: 43px;
+    width: 100px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    outline: none;
+    border-radius: 0px 5px 5px 0px;
+}
+/* end subscriber */
+
+/* start news */
+.news{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 20px 150px 0px;
+    grid-column-gap: 40px;
+}
+.news_img{
+    width: 100%;
+    height: 300px;
+}
+.news>div{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.news_text{
+    padding: 10px 20px 20px;
+}
+.news_text h3{
+    margin-bottom: 10px;
+}
+.news_text p{
+    padding: 10px 0px 10px;
+}
+.read_more{
+    border: 1px solid red;
+    padding: 10px 20px;
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    float: right;
+    margin-bottom: 10px;
+}
+.read_more:hover{
+    background-color: white;
+    color: red;
+}
+.news_date{
+    opacity: .7;
+    font-style: italic;
+}
+.news_img:hover{
+    transform: scale(1.2);
+}
